@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-livereload": "^0.6.1",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "helmet": "^6.0.1",
+    "livereload": "^0.9.3",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.9.0",
+    "nodemailer": "^6.9.3",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.7.12"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "watch": "nodemon --ext js,ejs --ignore public"
+  },
+  "name": "ammmars-shoes",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

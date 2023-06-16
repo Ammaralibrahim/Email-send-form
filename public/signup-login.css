@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Sayfa tam ortada */
+  background-color: #f5f5f5; /* Sade ve rahatlatıcı arka plan rengi */
+  font-family: 'Poppins', sans-serif;}
+
+form {
+  width: 400px; /* Formun genişliği */
+  padding: 20px;
+  background-color: #ffffff; /* Form arka plan rengi */
+  border-radius: 20px; /* Formun kenarlarına yuvarlaklık vermek için */
+}
+
+
+
+form input[type="email"],
+form input[type="password"],
+form input[type="text"]
+{
+  width: 100%; /* Inputların genişliği */
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #cacaca ;
+  border-radius: 10px; /* Inputlara yuvarlak kenarlık vermek için */
+  outline: none;
+  color: #000000; /* Input yazı rengi */
+}
+
+form input[type="email"]::placeholder,
+form input[type="password"]::placeholder 
+form input[type="text"]::placeholder 
+{
+  color: #cccccc; /* Placeholder rengi */
+  font-style: italic; /* Tatlı ve ince yazı stili */
+  font-size: 13px;
+}
+
+form button[type="submit"] {
+  width: 100%; /* Butonun genişliği */
+  padding: 10px;
+  background-color: #000000; /* Buton arka plan rengi */
+  color: #ffffff; /* Buton metin rengi */
+  border: none;
+  border-radius: 3px; /* Butona yuvarlak kenarlık vermek için */
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background-color: #222222; /* Buton üzerine gelindiğindeki arka plan rengi */
+}
+
+form a {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #000000; /* Link rengi */
+}
